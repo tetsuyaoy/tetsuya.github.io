@@ -1,0 +1,123 @@
+.borderin li a {
+	color:rgb(255, 255, 255); 
+	border: 3px solid; 
+	border-radius: 10px;
+}
+.mainin {
+transition: all 0.5s;
+-webkit-text-stroke: 4px #57e1e1;
+font-variation-settings: "wght" 900, "ital" 1;
+font-size: 5rem;
+text-align: center;
+color: transparent;
+font-family: "Meta", sans-serif;
+text-shadow: 10px 10px 0px #07bccc,
+    15px 15px 0px #e601c0,
+    20px 20px 0px #e9019a,
+    25px 25px 0px #f40468,
+    45px 45px 10px #482896;
+cursor: pointer;
+}
+
+.mainin:hover {
+font-variation-settings: "wght" 100, "ital" 0;
+text-shadow: none;
+}
+
+
+.boxing {
+	width: 2em;
+	position: absolute;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+}
+.containerrr {
+	width: 100%;
+	height: 20em;
+	background-color: #2d2936;
+	-webkit-box-shadow: 0 2.5em 4.6em rgba(0, 0, 0, 0.3);
+	box-shadow: 0 2.5em 4.6em rgba(0, 0, 0, 0.3);
+	border-radius: 0.3em;
+	position: relative;
+}
+/* a {
+	display: block;
+	background: -o-linear-gradient(315deg, #8175fe, #89befe);
+	background: linear-gradient(135deg, #8175fe, #89befe);
+	color: #221e27;
+	text-align: center;
+	font-family: "Poppins", sans-serif;
+	font-size: 1.2em;
+	padding: 1em 0;
+	margin-top: 1em;
+	text-decoration: none;
+	border-radius: 0.3em;
+} */
+input[type="checkbox"] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	position: absolute;
+	margin: auto;
+	left: 5;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	cursor: pointer;
+	outline: none;
+	height: 2.5em;
+	width: 4.5em;
+	/* background-color: #f8f8f8; */
+	background-image: url("../img/uk.png") ;
+	background-size: cover;
+	-webkit-transform: skewX(-7deg);
+	-ms-transform: skewX(-7deg);
+	transform: skewX(-7deg);
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+input[type="checkbox"]:before {
+	font-size: 0.75em;
+	content: "ENG";
+	position: absolute;
+	width: 2.5em;
+	height: 3.9em;
+	background-color: #0ef;
+	border-radius: 10% 0px;
+	color: #ffffff;
+	top: 0.42em;
+	left: 0.42em;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+input[type="checkbox"]:checked {
+	background: -o-linear-gradient(315deg, #8175fe, #89befe);
+	/* background: linear-gradient(135deg, #8175fe, #89befe); */
+	background-image: url("../img/indonesia.png") ;
+	background-size: cover;
+}
+input[type="checkbox"]:checked:before {
+	content: "INA";
+	left: 3.1em;
+	color: #f7f7f7;
+}
+
+
+

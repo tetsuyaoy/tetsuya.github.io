@@ -1,0 +1,93 @@
+* { 
+    box-sizing: border-box; 
+}
+.slideshow-container {
+    /* padding-top: 10px; */
+    max-width: 400px;
+    position: relative;
+    /* margin: auto; */
+    text-align: left;
+}
+.slide {
+    display: none;
+}
+.slideshow-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.prev { left: 10px; }
+.next { right: 10px; }
+
+/* slide 2 */
+    .slideshow-container2 {
+        /* padding-top: 10px; */
+        max-width: 400px;
+        position: relative;
+        /* margin: auto; */
+        text-align: left;
+    }
+    .slide2 {
+        display: none;
+    }
+    .slideshow-container2 img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    .prev2, .next2 {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 10px;
+        font-size: 18px;
+        border-radius: 5px;
+    }
+    .prev2 { left: 10px; }
+    .next2 { right: 10px; }
+/* end slide 2 */
+
+/* slide 3 */
+    .slideshow-container3 {
+        /* padding-top: 10px; */
+        max-width: 400px;
+        position: relative;
+        /* margin: auto; */
+        text-align: left;
+    }
+    .slide3 {
+        display: none;
+    }
+    .slideshow-container3 img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    .prev3, .next3 {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 10px;
+        font-size: 18px;
+        border-radius: 5px;
+    }
+    .prev3 { left: 10px; }
+    .next3 { right: 10px; }
+/* end slide 3 */
