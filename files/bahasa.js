@@ -83,7 +83,7 @@ async function resume(el) {
                             <br>
                             <ul style="margin-left: 30px;">
                                 <li>D3 - Manajemen Informatika</li>
-                                <li>PK 3.60</li>
+                                <li>IPK 3.60</li>
                                 <li>Presiden Mahasiswa 2020 - 2021</li>
                                 <li>Ketua Dvisi IT di Himpunan</li>
                             </ul>
@@ -145,7 +145,7 @@ async function resume(el) {
                             <br>
                             <ul style="margin-left: 30px;">
                                 <li>Associate Degree - Management Informatika</li>
-                                <li>PK 3.60</li>
+                                <li>IPK 3.60</li>
                                 <li>Student President 2020 - 2021</li>
                                 <li>Head of the Association's IT Division</li>
                             </ul>
