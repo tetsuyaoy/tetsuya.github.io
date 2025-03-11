@@ -69,10 +69,10 @@ async function resume(el) {
         let serti_ind = "";
         let serti_eng = "";
 
-        const translations = await Promise.all(data.certificates.map(sertifikat => translateGoogleScrape(sertifikat.cert_title)));
+        const translations = await Promise.all(data.certificates.map(sertifikat => translateGoogleScrape(sertifikat.cert_title.replace("Belajar",""))));
 
         data.certificates.forEach((sertifikat, index) => {
-            serti_ind += `<li><a href="https://codepolitan.com/c/${sertifikat.code}" target="_blank" style="padding: 5px;"> ${sertifikat.cert_title} </a></li>`;
+            serti_ind += `<li><a href="https://codepolitan.com/c/${sertifikat.code}" target="_blank" style="padding: 5px;"> ${sertifikat.cert_title.replace("Belajar","")} </a></li>`;
             serti_eng += `<li><a href="https://codepolitan.com/c/${sertifikat.code}" target="_blank" style="padding: 5px;"> ${translations[index]} </a></li>`;
         });
         if (el =='ind'){
