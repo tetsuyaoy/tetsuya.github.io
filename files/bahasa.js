@@ -50,12 +50,16 @@ function about(el) {
         var text = `
                     <h2>Tentang <span> Saya</span></span></h2>
                     <br>
-                    <p>Nama lengkap saya Mochamad Rama Ramdhani dan saya sangat menyukai olahraga seperti basket, bulu tangkis, futsal dan jogging. Selain olahraga, saya juga sangat senang membuat sesuatu yang berhubungan dengan teknologi, salah satunya adalah membuat aplikasi web, oleh karena itu saya juga sangat senang belajar coding hingga mengikuti kelas-kelas agar dapat meningkatkan kemampuan dan mengikuti perkembangan teknologi.</p>`;
+                    <p>Nama lengkap saya Mochamad Rama Ramdhani. Saya merupakan lulusan D3 Manajemen Informatika dengan minat yang besar pada teknologi dan pemrograman. Saat ini, saya bekerja sebagai Fullstack Web Developer dengan pengalaman dalam membangun aplikasi web modern dan responsif.</p>
+                    <p>Saya berkomitmen untuk terus mengembangkan keterampilan saya dengan mengikuti berbagai kelas pemrograman dan pelatihan. Tujuan saya adalah memperluas keahlian tidak hanya dalam pengembangan web tetapi juga di bidang Pengembangan Perangkat Lunak (Software Development) dan Pengembangan Game (Game Development).</p>
+                    <p>Saya percaya bahwa belajar adalah perjalanan seumur hidup, dan saya selalu antusias menghadapi tantangan baru di dunia teknologi. Saya siap berkontribusi lebih banyak dan terus berkembang sebagai profesional di industri ini.</p>`;
     }else{
         var text = `
                     <h2>About <span>Me</span></h2>
                     <br>
-                    <p>My full name is Mochamad Rama Ramdhani and I really like sports such as basketball, badminton, futsal and jogging. In addition to sports, I also really enjoy making something related to technology, one of which is making web applications, therefore I also really enjoy learning coding to taking classes so that I can improve my skills and update in technology.</p>`;
+                    <p>My full name is Mochamad Rama Ramdhani. I am a D3 Management Informatics graduate with a strong passion for technology and programming. Currently, I work as a Fullstack Web Developer with experience in building modern and responsive web applications.</p>
+                    <p>I am committed to continuously developing my skills by participating in various programming classes and training sessions. My goal is to expand my expertise not only in web development but also in Software Development and Game Development.</p>
+                    <p>I believe that learning is a lifelong journey, and I am always enthusiastic about taking on new challenges in the tech world. I am eager to contribute more and grow as a professional in this industry.</p>`;
     }
     
     $('#aboute').html(text);
