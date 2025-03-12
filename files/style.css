@@ -234,10 +234,10 @@ body {
 
 .about-text p {
     color: aliceblue;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 2;
     letter-spacing: 2px;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     text-align: justify;
     text-justify: inter-word;
 }
@@ -1022,7 +1022,7 @@ body {
         font-size: 15px;
         line-height: normal;
         letter-spacing: 1px;
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
         text-align: left;
     }
     .abtbtn-box:hover {
@@ -1185,10 +1185,10 @@ body {
     }
     
     .about-text p {
-        font-size: 15px;
+        font-size: 10px;
         line-height: normal;
         letter-spacing: 0px;
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
         text-align: left;
     }
     .abtbtn-box:hover {

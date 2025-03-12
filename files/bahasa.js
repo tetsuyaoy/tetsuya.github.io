@@ -83,7 +83,7 @@ async function resume(el) {
             var edu = `
                         <i class='bx ' style="color: #00eeff;"><u>Pendidikan</u></i>
                         <div>
-                            <h3><u>Politeknik Praktisi Bandung | 2019-2022</u></h3>
+                            <h3>Politeknik Praktisi Bandung | 2019-2022</h3>
                             <br>
                             <ul style="margin-left: 30px;">
                                 <li>D3 - Manajemen Informatika</li>
@@ -94,7 +94,7 @@ async function resume(el) {
                         </div>
                         <br>
                         <div>
-                            <h3><u>Codepolitan | 2024 - Selamanya</u></h3>
+                            <h3>Codepolitan | 2024 - Selamanya</h3>
                             <br>
                             <ul style="margin-left: 30px;">
                                 <li>
@@ -145,7 +145,7 @@ async function resume(el) {
             var edu = `
                         <i class='bx ' style="color: #00eeff;"><u> Education</u></i>
                         <div>
-                            <h3><u>Politeknik Praktisi Bandung | 2019-2022</u></h3>
+                            <h3>Politeknik Praktisi Bandung | 2019-2022</h3>
                             <br>
                             <ul style="margin-left: 30px;">
                                 <li>Associate Degree - Management Informatika</li>
@@ -156,7 +156,7 @@ async function resume(el) {
                         </div>
                         <br>
                         <div>
-                            <h3><u>Codepolitan | 2024 - Forever</u></h3>
+                            <h3>Codepolitan | 2024 - Forever</h3>
                             <br>
                             <ul style="margin-left: 30px;">
                                 <li>
