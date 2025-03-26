@@ -91,3 +91,34 @@
     .prev3 { left: 10px; }
     .next3 { right: 10px; }
 /* end slide 3 */
+
+/* slide 4 */
+    .slideshow-container4 {
+        /* padding-top: 10px; */
+        max-width: 400px;
+        position: relative;
+        /* margin: auto; */
+        text-align: left;
+    }
+    .slide4 {
+        display: none;
+    }
+    .slideshow-container4 img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    .prev4, .next4 {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 10px;
+        font-size: 18px;
+        border-radius: 5px;
+    }
+    .prev4 { left: 10px; }
+    .next4 { right: 10px; }
+/* end slide 3 */

@@ -155,7 +155,7 @@ when users will click/enter button(link) browser will add a #id in a url and whe
 }
 
 .modal__text {
-  padding: 0 4rem;
+  /* padding: 0 4rem; */
   margin-top: 4rem;
 
   font-size: 1.6rem;
@@ -277,6 +277,39 @@ when users will click/enter button(link) browser will add a #id in a url and whe
 
 .link-3:hover,
 .link-3:focus {
+  background: var(--focus);
+  border-color: var(--focus);
+  transform: translateY(-.2rem);
+}
+
+.link-4 {
+  width: 4rem;
+  height: 4rem;
+  border: 1px solid var(--border-color);
+  border-radius: 100rem;
+
+  color: inherit;
+  font-size: 2.2rem;
+
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: .2s;
+}
+
+.link-4::before {
+  content: '×';
+
+  transform: translateY(-.1rem);
+}
+
+.link-4:hover,
+.link-4:focus {
   background: var(--focus);
   border-color: var(--focus);
   transform: translateY(-.2rem);
