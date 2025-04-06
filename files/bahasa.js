@@ -95,7 +95,7 @@ async function resume(el) {
                         </div>
                         <br>
                         <div>
-                            <h3>Codepolitan | 2024 - Selamanya</h3>
+                            <h3>Codepolitan | 2024 - Sekarang</h3>
                             <br>
                             <ul style="margin-left: 30px;">
                                 <li>
@@ -116,7 +116,7 @@ async function resume(el) {
                                 <li>Membuat Aplikasi Web Laravel 8 “Sistem Manajemen Keuangan Daerah Akuntansi (SIMAKDA AKUNTANSI) Pemprov Kalimantan Barat”.</li>
                                 <li>Membuat Aplikasi Web Codeigniter 3 “Sistem Informasi Manajemen Pengawasan Inspektorat (SIMWASIAT) Kab. Bengkayang”.</li>
                                 <li>Membuat API Sistem Pajak Daerah (SI PADAH) Android untuk Kab. Sanggau</li>
-                                <li>Menjadi IT Consultant di kantor BKAD Provinsi Kalimantan Barat.</li>
+                                <li>Memberikan konsultasi dan pendampingan teknis sebagai IT Consultant di BKAD Provinsi Kalimantan Barat terkait implementasi aplikasi.</li>
                             </ul>
                         </div>
                         <br>
@@ -124,7 +124,8 @@ async function resume(el) {
                             <h3>2022 | Junior Programmer<br> PT. Murfa Surya Mahardika <br> Jakarta <br>Kontrak</h3><br>
                             <ul style="margin-left: 30px;">
                                 <li>Merancang dan membuat Aplikasi Web Codeigniter 3 “Aplikasi Tambahan Penghasilan Pegawai (e-TPP)”.</li>
-                                <li>Membuat Vidio Tutorial Penggunaan Aplikasi.</li>
+                                <li>Membuat 10+ Vidio Tutorial Penggunaan Aplikasi.</li>
+                                <li>Menjadi pembimbing bagi 4 pemagang tingkat SMK dalam pelatihan operasional jaringan dan database.</li>
                             </ul>
                         </div>
                         <br>
@@ -140,7 +141,7 @@ async function resume(el) {
                                         <li>Kab. Mimika</li>
                                     </ul>
                                 </li>
-                                <li>Menjadi pengawas sekaligus menginstruksikan pemagang tingkat SMK dalam membuat Vidio Promosi Aplikasi.</li>
+                                <li>Menjadi pembimbing sekaligus pengawas bagi 3 siswa magang SMK dalam proses pembuatan video promosi aplikasi.</li>
                             </ul>
                         </div>`;
         }else{
@@ -158,7 +159,7 @@ async function resume(el) {
                         </div>
                         <br>
                         <div>
-                            <h3>Codepolitan | 2024 - Forever</h3>
+                            <h3>Codepolitan | 2024 - Present</h3>
                             <br>
                             <ul style="margin-left: 30px;">
                                 <li>
@@ -174,27 +175,28 @@ async function resume(el) {
                         <div>
                             <h3>2022 - 2025 | Programmer<br> PT. Murfa Surya Mahardika (CV Solusi Komputer) <br> Pontianak <br>Contract</h3><br>
                             <ul style="margin-left: 30px;">
-                                <li>Developing Codeigniter 2 Web Applications “Sistem Manajemen Keuangan Daerah (SIMAKDA 2022) Pemprov Kalimantan Barat”</li>
-                                <li>Creating a Laravel 8 Web Application “Laporan Anggaran Realisasi Keuangan Pemprov Kalimantan Barat (Lapis Belacan)”</li>
-                                <li>Creating a Laravel 8 Web Application “Sistem Manajemen Keuangan Daerah Akuntansi (SIMAKDA AKUNTANSI) Pemprov Kalimantan Barat”</li>
-                                <li>Creating a CodeIgniter 3 Web Application “Sistem Informasi Manajemen Pengawasan Inspektorat (SIMWASIAT) Kab. Bengkayang</li>
-                                <li>Creating an Android Local Tax System (SI PADAH) API for Kab. Sanggau</li>
-                                <li>Served as an IT Consultant at the West Kalimantan Provincial BKAD office.</li>
+                                <li>Developed a CodeIgniter 2 Web Application “Regional Financial Management System (SIMAKDA 2022)” for the West Kalimantan Provincial Government.</li>
+                                <li>Created a Laravel 8 Web Application “Realization Report of Financial Budget (Lapis Belacan)” for the West Kalimantan Provincial Government.</li>
+                                <li>Built a Laravel 8 Web Application “Regional Financial Management System for Accounting (SIMAKDA ACCOUNTING)” for the West Kalimantan Provincial Government.</li>
+                                <li>Developed a CodeIgniter 3 Web Application “Inspectorate Monitoring Information System (SIMWASISAT)” for Bengkayang Regency.</li>
+                                <li>Built an API for the “Regional Tax System (SI PADAH)” Android application for Sanggau Regency.</li>
+                                <li>Provided technical consultation and assistance as an IT Consultant for application implementation at BKAD of West Kalimantan Province.</li>
                             </ul>
                         </div>
                         <br>
                         <div>
                             <h3>2022 | Junior Programmer<br> PT. Murfa Surya Mahardika <br> Jakarta <br>Contract</h3><br>
                             <ul style="margin-left: 30px;">
-                                <li>Design and create Codeigniter 3 Web Applications “Aplikasi Tambahan Penghasilan Pegawai (e-TPP)”</li>
-                                <li>Make a video tutorial on using the application</li>
+                                <li>Designed and developed a CodeIgniter 3 Web Application “Additional Employee Income Application (e-TPP)”.</li>
+                                <li>Created 10+ video tutorials for application usage.</li>
+                                <li>Acted as mentor and supervisor for 4 vocational high school (SMK) interns in network and database operation training.</li>
                             </ul>
                         </div>
                         <br>
                         <div>
                             <h3>2021 - 2022 | Junior Programmer<br> PT. Murfa Surya Mahardika <br> Jakarta <br>Internship</h3><br>
                             <ul style="margin-left: 30px;">
-                                <li>Participated in the creation and development of the Codeigniter 3 Web Application “Sistem Informasi Pengawasan (SIP)”, For government:
+                                <li>Participated in the development of a CodeIgniter 3 Web Application “Supervisory Information System (SIP)” for the following government regions:
                                     <ul style="margin-left: 30px;">
                                         <li>Prov. Papua Barat</li>
                                         <li>Kab. Wondama</li>
@@ -203,7 +205,7 @@ async function resume(el) {
                                         <li>Kab. Mimika</li>
                                     </ul>
                                 </li>
-                                <li>Become a supervisor and instruct vocational school level interns in making Application Promotional Videos.</li>
+                                <li>Mentored and supervised more than 3 vocational high school (SMK) interns in creating application promotional videos.</li>
                             </ul>
                         </div>`;
         }
