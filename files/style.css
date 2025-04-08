@@ -287,7 +287,8 @@ body {
     width: 300px;
     max-height: 500px;
     padding: 10px;
-    margin-left: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
     margin-bottom: 50px;
     border: #0ef 5px solid;
     border-radius: 10%;
