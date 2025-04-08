@@ -141,7 +141,7 @@ async function resume(el) {
                                         <li>Kab. Mimika</li>
                                     </ul>
                                 </li>
-                                <li>Menjadi pembimbing sekaligus pengawas bagi 3 siswa magang SMK dalam proses pembuatan video promosi aplikasi.</li>
+                                <li>Menjadi pembimbing sekaligus pengawas bagi 3 siswa magang SMK dalam proses pembuatan video promosi aplikasi.</li>
                             </ul>
                         </div>`;
         }else{
