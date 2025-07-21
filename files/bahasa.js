@@ -1,9 +1,4 @@
 $(document).ready(function() {
-    document.getElementById("box").classList.remove("box");
-    document.getElementById("box2").classList.remove("box");
-    document.getElementById("box3").classList.remove("box");
-    document.getElementById("box4").classList.remove("box");
-    document.getElementById("box5").classList.remove("box");
     home('eng');
     about('eng');
     resume('eng');

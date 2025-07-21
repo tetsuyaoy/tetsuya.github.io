@@ -9,7 +9,6 @@
         <link rel="stylesheet" href='./files/style.css'>
         <link rel="stylesheet" href='./files/skill.css'>
         <link rel="stylesheet" href='./files/modal.css'>
-        <link rel="stylesheet" href='./files/slide.css'>
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
         <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
@@ -243,115 +242,111 @@
         </section>
 
         <section id="Projects">
-            <!-- modal 1 -->
-                <div class="box" id="box">
-                    <div class="modal-container" id="m1-o" style="--m-background: transparent;">
-                        <div class="modal">
-                            <Lapis class="modal__title">Lapis Belacan</h1>
-                            <div class="modal-content">
-                                
-                                <div class="slideshow-container">
-                                    <button class="prev" onclick="changeSlide(-1)">❮</button>
-                                    <img class="slide" src="./img/lapis_belacan/dashboard1.png" alt="Gambar 1">
-                                    <img class="slide" src="./img/lapis_belacan/dashboard2.png" alt="Gambar 2">
-                                    <img class="slide" src="./img/lapis_belacan/skpd.png" alt="Gambar 3">
-                                    <img class="slide" src="./img/lapis_belacan/output_skpd.png" alt="Gambar 4">
-                                    <button class="next" onclick="changeSlide(1)">❯</button>
-                                </div>
-                                <div class="text_modal" id="pm1">  
-                                </div>
+            <!-- modals Section -->
+                <!-- modal 1 -->
+                    <div id="modal1" class="modal-container">
+                        <div class="modal-box">
+                            <span class="close-btn" onclick="closeModal('modal1')">&times;</span>
+                            <h2 class="modal-title">Lapis Belacan</h2>
+
+                            <div class="slideshow-container">
+                            <img class="modal-slide modal1-slide" src="./img/lapis_belacan/dashboard1.png" />
+                            <img class="modal-slide modal1-slide" src="./img/lapis_belacan/dashboard2.png" />
+                            <img class="modal-slide modal1-slide" src="./img/lapis_belacan/output_skpd.png" />
+
+                            <a class="prev" onclick="changeSlide(-1, 'modal1')">&#10094;</a>
+                            <a class="next" onclick="changeSlide(1, 'modal1')">&#10095;</a>
                             </div>
-                            <!-- <button class="modal__btn">Button &rarr;</button> -->
-                            <a href="#m1-c" class="link-2"></a>
+
+                            <p class="modal-description" id="pm1">
+                            
+                            </p>
                         </div>
                     </div>
-                </div>
-            <!-- /modal 1 -->
-            <!-- modal 2 -->
-                <div class="box" id="box2">
-                    <div class="modal-container" id="m2-o" style="--m-background: transparent;">
-                        <div class="modal">
-                            <Lapis class="modal__title">E-TPP</h1>
-                            <div class="modal-content">
-                                <div class="slideshow-container2">
-                                    <button class="prev2" onclick="changeSlide2(-1)">❮</button>
-                                    <img class="slide2" src="./img/etpp/login.png" alt="Gambar 1">
-                                    <img class="slide2" src="./img/etpp/dashboard.png" alt="Gambar 2">
-                                    <img class="slide2" src="./img/etpp/3nya.png" alt="Gambar 3">
-                                    <button class="next2" onclick="changeSlide2(1)">❯</button>
-                                </div>
-                                <div class="text_modal" id="pm2"> 
-                                </div>
+                <!-- /modal 1 -->
+                <!-- modal 2 -->
+                    <div id="modal2" class="modal-container">
+                        <div class="modal-box">
+                            <span class="close-btn" onclick="closeModal('modal2')">&times;</span>
+                            <h2 class="modal-title">E-TPP</h2>
+
+                            <div class="slideshow-container">
+                            <img class="modal-slide modal2-slide" src="./img/etpp/login.png" />
+                            <img class="modal-slide modal2-slide" src="./img/etpp/dashboard.png" />
+                            <img class="modal-slide modal2-slide" src="./img/etpp/3nya.png" />
+
+                            <a class="prev" onclick="changeSlide(-1, 'modal2')">&#10094;</a>
+                            <a class="next" onclick="changeSlide(1, 'modal2')">&#10095;</a>
                             </div>
-                            <!-- <button class="modal__btn">Button &rarr;</button> -->
-                            <a href="#m2-c" class="link-2"></a>
+
+                            <p class="modal-description" id="pm2">
+                            
+                            </p>
                         </div>
                     </div>
-                </div>
-            <!-- /modal 2 -->
-            <!-- modal 3 -->
-                <div class="box" id="box3">
-                    <div class="modal-container" id="m3-o" style="--m-background: transparent;">
-                        <div class="modal">
-                            <Lapis class="modal__title">Sistem Informasi Manajemen Pengawasan Inspektorat (SIMWASIAT)</h1>
-                            <div class="modal-content">
-                                <div class="slideshow-container3">
-                                    <button class="prev3" onclick="changeSlide3(-1)">❮</button>
-                                    <img class="slide3" src="./img/simwasiat/login_apip.png" alt="Gambar 1">
-                                    <img class="slide3" src="./img/simwasiat/dashboard1.png" alt="Gambar 2">
-                                    <img class="slide3" src="./img/simwasiat/dashboard2.png" alt="Gambar 3">
-                                    <img class="slide3" src="./img/simwasiat/inputan_pemeriksaan.png" alt="Gambar 4">
-                                    <img class="slide3" src="./img/simwasiat/kertas_kerja.png" alt="Gambar 5">
-                                    <button class="next3" onclick="changeSlide3(1)">❯</button>
-                                </div>
-                                <div class="text_modal" id="pm3"> 
-                                </div>
+                <!-- /modal 2 -->
+                <!-- modal 3 -->
+                    <div id="modal3" class="modal-container">
+                        <div class="modal-box">
+                            <span class="close-btn" onclick="closeModal('modal3')">&times;</span>
+                            <h2 class="modal-title">SIMWASIAT</h2>
+
+                            <div class="slideshow-container">
+                            <img class="modal-slide modal3-slide" src="./img/simwasiat/login_apip.png" />
+                            <img class="modal-slide modal3-slide" src="./img/simwasiat/dashboard1.png" />
+                            <img class="modal-slide modal3-slide" src="./img/simwasiat/dashboard2.png" />
+                            <img class="modal-slide modal3-slide" src="./img/simwasiat/inputan_pemeriksaan.png" />
+                            <img class="modal-slide modal3-slide" src="./img/simwasiat/kertas_kerja.png" />
+
+                            <a class="prev" onclick="changeSlide(-1, 'modal3')">&#10094;</a>
+                            <a class="next" onclick="changeSlide(1, 'modal3')">&#10095;</a>
                             </div>
-                            <!-- <button class="modal__btn">Button &rarr;</button> -->
-                            <a href="#m3-c" class="link-3"></a>
+
+                            <p class="modal-description" id="pm3">
+                            
+                            </p>
                         </div>
                     </div>
-                </div>
-            <!-- /modal 3 -->
-            <!-- modal 4 -->
-                <div class="box" id="box4">
-                    <div class="modal-container" id="m4-o" style="--m-background: transparent;">
-                        <div class="modal">
-                            <Lapis class="modal__title">Sistem Informasi Manajemen Keuangan Daerah Bidang Akuntansi (SIMAKDA AKUNTANSI)</h1>
-                            <div class="modal-content">
-                                <div class="slideshow-container4">
-                                    <button class="prev4" onclick="changeSlide4(-1)">❮</button>
-                                    <img class="slide4" src="./img/simakda/login.png" alt="Gambar 1">
-                                    <img class="slide4" src="./img/simakda/dashboard.png" alt="Gambar 2">
-                                    <button class="next4" onclick="changeSlide4(1)">❯</button>
-                                </div>
-                                <div class="text_modal" id="pm4"> 
-                                </div>
+                <!-- /modal 3 -->
+                <!-- modal 4 -->
+                    <div id="modal4" class="modal-container">
+                        <div class="modal-box">
+                            <span class="close-btn" onclick="closeModal('modal4')">&times;</span>
+                            <h2 class="modal-title">SIMAKDA AKUNTANSI</h2>
+
+                            <div class="slideshow-container">
+                            <img class="modal-slide modal4-slide" src="./img/simakda/login.png" />
+                            <img class="modal-slide modal4-slide" src="./img/simakda/dashboard.png" />
+
+                            <a class="prev" onclick="changeSlide(-1, 'modal4')">&#10094;</a>
+                            <a class="next" onclick="changeSlide(1, 'modal4')">&#10095;</a>
                             </div>
-                            <!-- <button class="modal__btn">Button &rarr;</button> -->
-                            <a href="#m4-c" class="link-4"></a>
+
+                            <p class="modal-description" id="pm4">
+                            
+                            </p>
                         </div>
                     </div>
-                </div>
-            <!-- /modal 4 -->
-            <!-- modal 5 -->
-                <div class="box" id="box5">
-                    <div class="modal-container" id="m5-o" style="--m-background: transparent;">
-                        <div class="modal">
-                            <Lapis class="modal__title">ChatApp / RoamChat / Roam Comments</h1>
-                            <div class="modal-content">
-                                <div class="slideshow-container5">
-                                    <img class="slide5" src="./img/AppChat/tampilan.png" alt="Gambar 1">
-                                </div>
-                                <div class="text_modal" id="pm5"> </div>
-                                <div class="text_modal" >Link Demonstrasi <a href="https://tetsuyaoy.github.io/AppChat/" target="_blank">ChatApp</a></div>
+                <!-- /modal 4 -->
+                <!-- modal 5 -->
+                    <div id="modal5" class="modal-container">
+                        <div class="modal-box">
+                            <span class="close-btn" onclick="closeModal('modal5')">&times;</span>
+                            <h2 class="modal-title">ChatApp / RoamChat / Roam Comments</h2>
+
+                            <div class="slideshow-container">
+                            <img class="modal-slide modal5-slide" src="./img/AppChat/tampilan.png" />
+
                             </div>
-                            <!-- <button class="modal__btn">Button &rarr;</button> -->
-                            <a href="#m5-c" class="link-5"></a>
+
+                            <p class="modal-description" id="pm5">
+                            <p class="modal-description">Link Demo : <a href="https://tetsuyaoy.github.io/AppChat/" target="_blank">AppChat </a>   </p>
+                            
+                            </p>
                         </div>
                     </div>
-                </div>
-            <!-- /modal 5 -->
+                <!-- /modal 5 -->
+            <!-- /modals Section -->
             <div id="portfolio" class="services">
                 <div class="main-text" id="serv">
                     <h2>My <span>Projects</span></h2>
@@ -362,7 +357,7 @@
                                 <h5>Lapis Belacan</h5>
                                 <p>Laravel Framework & SQL Server</p>
 
-                                <a href="#m1-o"><i class='bx bx-desktop' style="color: aliceblue;"></i></a>
+                                <a onclick="openModal('modal1')"><i class='bx bx-desktop' style="color: aliceblue;"></i></a>
 
                             </div>
                         </div>
@@ -373,7 +368,7 @@
                                 <h5>E-TPP</h5>
                                 <p>CodeIgniter 3 Framework & MySQL</p>
 
-                                <a href="#m2-o"><i class='bx bx-desktop' style="color: aliceblue;"></i></a>
+                                <a onclick="openModal('modal2')"><i class='bx bx-desktop' style="color: aliceblue;"></i></a>
                                 
                             </div>
                         </div>
@@ -384,7 +379,7 @@
                                 <h5>SIMWASIAT</h5>
                                 <p>CodeIgniter 3 Framework & MariaDB</p>
 
-                                <a href="#m3-o"><i class='bx bx-desktop' style="color: aliceblue;"></i></a>
+                                <a onclick="openModal('modal3')"><i class='bx bx-desktop' style="color: aliceblue;"></i></a>
                                 
                             </div>
                         </div>
@@ -395,7 +390,7 @@
                                 <h5>SIMAKDA AKUNTANSI</h5>
                                 <p>Laravel Framework & SQL Server</p>
 
-                                <a href="#m4-o"><i class='bx bx-desktop' style="color: aliceblue;"></i></a>
+                                <a onclick="openModal('modal4')"><i class='bx bx-desktop' style="color: aliceblue;"></i></a>
                                 
                             </div>
                         </div>
@@ -406,7 +401,7 @@
                                 <h5>ChatApp / RoamChat / Roam Comments</h5>
                                 <p>React Framework & Json-Server (nodejs).</p>
 
-                                <a href="#m5-o"><i class='bx bx-desktop' style="color: aliceblue;"></i></a>
+                                <a onclick="openModal('modal5')"><i class='bx bx-desktop' style="color: aliceblue;"></i></a>
                                 
                             </div>
                         </div>
@@ -444,10 +439,6 @@
         <script src="./files/script.js"></script>
         <script src="./files/bahasa.js"></script>
         <script src="./files/slide.js"></script>
-        <script src="./files/slide2.js"></script>
-        <script src="./files/slide3.js"></script>
-        <script src="./files/slide4.js"></script>
-        <script src="./files/slide5.js"></script>
     </body>  
 </html>
 

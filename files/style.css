@@ -545,7 +545,8 @@ body {
 }
 
 .serv-container {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     grid-template-columns: repeat(auto-fit, minmax(259px, auto));
     align-items: center;
     justify-content: space-around;

@@ -1,45 +1,37 @@
-let slideIndex = 0;
-    let slides = document.getElementsByClassName("slide");
+function openModal(id) {
+  document.getElementById(id).style.display = "block";
+  showSlides(0, id);
+}
 
-    function showSlide(index) {
-        if (index >= slides.length) slideIndex = 0;
-        if (index < 0) slideIndex = slides.length - 1;
+function closeModal(id) {
+  document.getElementById(id).style.display = "none";
+}
 
-        for (let i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        slides[slideIndex].style.display = "block";
+// Slideshow Logic
+const slideIndexMap = {};
+
+function showSlides(n, modalId) {
+  const slides = document.querySelectorAll(`#${modalId} .modal-slide`);
+  if (!slideIndexMap[modalId]) slideIndexMap[modalId] = 0;
+
+  slideIndexMap[modalId] += n;
+  if (slideIndexMap[modalId] >= slides.length) slideIndexMap[modalId] = 0;
+  if (slideIndexMap[modalId] < 0) slideIndexMap[modalId] = slides.length - 1;
+
+  slides.forEach(slide => (slide.style.display = "none"));
+  slides[slideIndexMap[modalId]].style.display = "block";
+}
+
+function changeSlide(n, modalId) {
+  showSlides(n, modalId);
+}
+
+// Optional Auto Slide
+setInterval(() => {
+  document.querySelectorAll('.modal-container').forEach(modal => {
+    if (modal.style.display === 'block') {
+      const id = modal.id;
+      showSlides(1, id);
     }
-
-    function changeSlide(n) {
-        slideIndex += n;
-        showSlide(slideIndex);
-    }
-
-    showSlide(slideIndex);
-
-    let autoSlide;
-
-    function startAutoSlide() {
-        autoSlide = setInterval(() => {
-            changeSlide(1);
-        }, 5000);
-    }
-
-    function stopAutoSlide() {
-        clearInterval(autoSlide);
-    }
-
-    startAutoSlide(); // Jalankan otomatis
-
-    document.querySelector(".prev").addEventListener("click", () => {
-        stopAutoSlide();
-        changeSlide(-1);
-        startAutoSlide();
-    });
-
-    document.querySelector(".next").addEventListener("click", () => {
-        stopAutoSlide();
-        changeSlide(1);
-        startAutoSlide();
-    });
+  });
+}, 5000); // every 5 seconds
