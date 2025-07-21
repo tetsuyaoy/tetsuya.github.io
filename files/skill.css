@@ -119,5 +119,45 @@ input[type="checkbox"]:checked:before {
 	color: #f7f7f7;
 }
 
+@media (max-width: 768px) {
+	.mainin {
+		font-size: 2.5rem;
+		-webkit-text-stroke: 2px #57e1e1;
+		text-shadow: 5px 5px 0px #07bccc,
+					7px 7px 0px #e601c0,
+					10px 10px 0px #e9019a,
+					12px 12px 0px #f40468,
+					20px 20px 5px #482896;
+	}
+
+	.containerrr {
+		height: auto;
+		padding: 1em;
+	}
+
+	.boxing {
+		width: 3em;
+		top: 45%;
+		left: 50%;
+	}
+
+	input[type="checkbox"] {
+		width: 3em;
+		height: 2em;
+		background-size: contain;
+	}
+
+	input[type="checkbox"]:before {
+		width: 1.5em;
+		height: 2em;
+		font-size: 0.6em;
+		top: 0.25em;
+		left: 0.25em;
+	}
+
+	input[type="checkbox"]:checked:before {
+		left: 1.5em;
+	}
+}
 
 

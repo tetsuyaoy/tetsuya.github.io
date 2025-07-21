@@ -121,4 +121,35 @@
     }
     .prev4 { left: 10px; }
     .next4 { right: 10px; }
-/* end slide 3 */
+/* end slide 4 */
+
+/* slide 5 */
+    .slideshow-container5 {
+        /* padding-top: 10px; */
+        max-width: 400px;
+        position: relative;
+        /* margin: auto; */
+        text-align: left;
+    }
+    .slide5 {
+        display: none;
+    }
+    .slideshow-container5 img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    .prev5, .next5 {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 10px;
+        font-size: 18px;
+        border-radius: 5px;
+    }
+    .prev5 { left: 10px; }
+    .next5 { right: 10px; }
+/* end slide 5 */

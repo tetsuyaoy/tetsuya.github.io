@@ -315,6 +315,39 @@ when users will click/enter button(link) browser will add a #id in a url and whe
   transform: translateY(-.2rem);
 }
 
+.link-5 {
+  width: 4rem;
+  height: 4rem;
+  border: 1px solid var(--border-color);
+  border-radius: 100rem;
+
+  color: inherit;
+  font-size: 2.2rem;
+
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: .2s;
+}
+
+.link-5::before {
+  content: '×';
+
+  transform: translateY(-.1rem);
+}
+
+.link-5:hover,
+.link-5:focus {
+  background: var(--focus);
+  border-color: var(--focus);
+  transform: translateY(-.2rem);
+}
+
 .abs-site-link {
   position: fixed;
   bottom: 20px;
@@ -325,7 +358,7 @@ when users will click/enter button(link) browser will add a #id in a url and whe
 
 @media (max-width: 768px) {
   .modal-content {
-      flex-direction: column;
+      flex-direction: row;
       text-align: center;
   }
 
