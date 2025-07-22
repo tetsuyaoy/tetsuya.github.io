@@ -116,6 +116,10 @@ body {
 
 }
 
+li {
+    margin-bottom: 20px;
+}
+
 .home-sci a {
     display: inline-flex;
     justify-content: center;

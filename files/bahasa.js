@@ -78,7 +78,7 @@ async function resume(el) {
         });
         if (el =='ind'){
             var edu = `
-                        <i class='bx ' style="color: #00eeff;"><u>Pendidikan</u></i>
+                        <i class=' ' style="color: #00eeff;"><u>Pendidikan</u></i>
                         <div>
                             <h3>Politeknik Praktisi Bandung | 2019-2022</h3>
                             <br>
@@ -103,7 +103,7 @@ async function resume(el) {
                             </ul>
                         </div>`;
             var exper =`
-                        <i class='bx ' style="color: #00eeff;"><u>Pengalaman</u></i>
+                        <i class=' ' style="color: #00eeff;"><u>Pengalaman</u></i>
                         <div>
                             <h3>2022 - 2025 | Programmer<br> PT. Murfa Surya Mahardika (CV Solusi Komputer) <br> Pontianak <br>Kontrak</h3><br>
                             <ul style="margin-left: 30px;">
@@ -117,16 +117,7 @@ async function resume(el) {
                         </div>
                         <br>
                         <div>
-                            <h3>2022 | Junior Programmer<br> PT. Murfa Surya Mahardika <br> Jakarta <br>Kontrak</h3><br>
-                            <ul style="margin-left: 30px;">
-                                <li>Merancang dan membuat Aplikasi Web Codeigniter 3 “Aplikasi Tambahan Penghasilan Pegawai (e-TPP)”.</li>
-                                <li>Membuat 10+ Vidio Tutorial Penggunaan Aplikasi.</li>
-                                <li>Menjadi pembimbing bagi 4 pemagang tingkat SMK dalam pelatihan operasional jaringan dan database.</li>
-                            </ul>
-                        </div>
-                        <br>
-                        <div>
-                            <h3>2021 - 2022 | Junior Programmer<br> PT. Murfa Surya Mahardika<br> Jakarta <br>Magang</h3><br>
+                            <h3>2021 - 2022 | Junior Programmer<br> PT. Murfa Surya Mahardika<br> Jakarta <br>Magang - Kontrak</h3><br>
                             <ul style="margin-left: 30px;">
                                 <li>Ikut Serta dalam pembuatan dan pengembangan Aplikasi Web Codeigniter 3 “Sistem Informasi Pengawasan (SIP)”, untuk pemerintahan:
                                     <ul style="margin-left: 30px;">
@@ -137,12 +128,14 @@ async function resume(el) {
                                         <li>Kab. Mimika</li>
                                     </ul>
                                 </li>
-                                <li>Menjadi pembimbing sekaligus pengawas bagi 3 siswa magang SMK dalam proses pembuatan video promosi aplikasi.</li>
+                                <li>Menjadi pembimbing sekaligus pengawas bagi 7 siswa magang SMK dalam proses pembuatan video promosi aplikasi dan pelatihan operasional jaringan dan database.</li>
+                                <li>Merancang dan membuat Aplikasi Web Codeigniter 3 “Aplikasi Tambahan Penghasilan Pegawai (e-TPP)”.</li>
+                                <li>Membuat 10+ Vidio Tutorial Penggunaan Aplikasi.</li>
                             </ul>
                         </div>`;
         }else{
             var edu = `
-                        <i class='bx ' style="color: #00eeff;"><u> Education</u></i>
+                        <i class=' ' style="color: #00eeff;"><u> Education</u></i>
                         <div>
                             <h3>Politeknik Praktisi Bandung | 2019-2022</h3>
                             <br>
@@ -167,7 +160,7 @@ async function resume(el) {
                             </ul>
                         </div>`;
             var exper =`
-                        <i class='bx ' style="color: #00eeff;"><u>Experience</u></i>
+                        <i class=' ' style="color: #00eeff;"><u>Experience</u></i>
                         <div>
                             <h3>2022 - 2025 | Programmer<br> PT. Murfa Surya Mahardika (CV Solusi Komputer) <br> Pontianak <br>Contract</h3><br>
                             <ul style="margin-left: 30px;">
@@ -181,16 +174,7 @@ async function resume(el) {
                         </div>
                         <br>
                         <div>
-                            <h3>2022 | Junior Programmer<br> PT. Murfa Surya Mahardika <br> Jakarta <br>Contract</h3><br>
-                            <ul style="margin-left: 30px;">
-                                <li>Designed and developed a CodeIgniter 3 Web Application “Additional Employee Income Application (e-TPP)”.</li>
-                                <li>Created 10+ video tutorials for application usage.</li>
-                                <li>Acted as mentor and supervisor for 4 vocational high school (SMK) interns in network and database operation training.</li>
-                            </ul>
-                        </div>
-                        <br>
-                        <div>
-                            <h3>2021 - 2022 | Junior Programmer<br> PT. Murfa Surya Mahardika <br> Jakarta <br>Internship</h3><br>
+                            <h3>2021 - 2022 | Junior Programmer<br> PT. Murfa Surya Mahardika <br> Jakarta <br>Internship - Contract</h3><br>
                             <ul style="margin-left: 30px;">
                                 <li>Participated in the development of a CodeIgniter 3 Web Application “Supervisory Information System (SIP)” for the following government regions:
                                     <ul style="margin-left: 30px;">
@@ -201,7 +185,9 @@ async function resume(el) {
                                         <li>Kab. Mimika</li>
                                     </ul>
                                 </li>
-                                <li>Mentored and supervised more than 3 vocational high school (SMK) interns in creating application promotional videos.</li>
+                                <li>Mentored and supervised more than 3 vocational high school (SMK) interns in creating application promotional videos and network and database operation training..</li>
+                                <li>Designed and developed a CodeIgniter 3 Web Application “Additional Employee Income Application (e-TPP)”.</li>
+                                <li>Created 10+ video tutorials for application usage.</li>
                             </ul>
                         </div>`;
         }
